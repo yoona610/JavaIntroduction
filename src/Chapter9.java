@@ -8,8 +8,8 @@ public class Chapter9 {
 		Wizard w = new Wizard();
 		w.name = "マーク";
 		w.hp = 50;
-		w.heal(h1);
-		w.heal(h2);
+//		w.heal(h1);
+//		w.heal(h2);
 		System.out.println(h1.hp);
 		System.out.println(h2.hp);
 		System.out.println(h1.name);

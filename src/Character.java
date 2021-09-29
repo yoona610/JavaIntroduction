@@ -9,5 +9,5 @@ public abstract class Character {
 	}
 
 	//	戦う
-	public abstract void attack(Matango m);
+	public abstract void attack(Monster m);
 }
