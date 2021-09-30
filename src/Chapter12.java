@@ -1,24 +1,6 @@
 
 public class Chapter12 {
 	public static void main(String[] args) {
-		//		SuperHero10 h = new SuperHero10();
-		//		Character c = new SuperHero10();
-		//		Slime s = new Slime();
-		//		Monster m = new Slime();
-		//		s.run();
-		//		m.run();
-		//		Wizard w = new Wizard();
-		//		Character c = w;
-		//		Matango m = new Matango();
-		//		c.name = "アサカ";
-		//		c.attack(m);
-		//		c.fireball(m);
-		//		Character c = new Wizard();
-		//		Wizard w = (Wizard) c;
-		//		if (c instanceof SuperHero10) {
-		//			SuperHero10 h = (SuperHero10) c;
-		//		}
-
 		//		Hero h1 = new Hero();
 		//		Hero h2 = new Hero();
 		//		Thief t1 = new Thief();
