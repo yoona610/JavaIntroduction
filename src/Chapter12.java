@@ -14,26 +14,39 @@ public class Chapter12 {
 		//		w1.hp += 50;
 		//		w2.hp += 50;
 
-		Character[] c = new Character[5];
-		c[0] = new Hero();
-		c[1] = new Hero();
-		c[2] = new Thief();
-		c[3] = new Wizard();
-		c[4] = new Wizard();
-
-		//		宿屋に泊まる
-		for (Character ch : c) {
-			ch.hp += 50;
-		}
-
-		Monster[] m = new Monster[4];
-		m[0] = new Slime();
-		m[1] = new Slime();
-		m[2] = new Slime();
-		m[3] = new Slime();
-
-		for(Monster mh : m) {
-			mh.run();
+		//		Character[] c = new Character[5];
+		//		c[0] = new Hero();
+		//		c[1] = new Hero();
+		//		c[2] = new Thief();
+		//		c[3] = new Wizard();
+		//		c[4] = new Wizard();
+		//
+		//		//		宿屋に泊まる
+		//		for (Character ch : c) {
+		//			ch.hp += 50;
+		//		}
+		//
+		//		Monster[] m = new Monster[4];
+		//		m[0] = new Slime();
+		//		m[1] = new Slime();
+		//		m[2] = new Slime();
+		//		m[3] = new Slime();
+		//
+		//		for(Monster mh : m) {
+		//			mh.run();
+		//		}
+		//		X obj = new A();
+		//		obj.a();
+		//		Y y1 = new A();
+		//		Y y2 = new B();
+		//		y1.a();
+		//		y2.a();
+		Y[] array = new Y[2];
+		array[0] = new A();
+		array[1] = new B();
+		for (Y y : array) {
+			y.a();
+			y.b();
 		}
 	}
 }
