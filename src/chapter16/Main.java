@@ -70,7 +70,7 @@ public class Main {
 		System.out.println(list.get(0).name);*/
 
 		Hero h1 = new Hero("ジェヒョン");
-		Hero h2 = new Hero("テヨン");
+		Hero h2 = new Hero("ドヨン");
 		/*List<Hero> heroes = new ArrayList<Hero>();
 		heroes.add(h1);
 		heroes.add(h2);
